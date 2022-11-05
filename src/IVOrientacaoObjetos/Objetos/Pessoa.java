@@ -14,6 +14,10 @@ public class Pessoa {
         this.nome = nome;
     }
 
+    public void dormir(){
+        System.out.println("Estou dormindo");
+    }
+
     public Integer getAnoNascimento() {
         return anoNascimento;
     }
